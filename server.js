@@ -8,7 +8,7 @@ const keys = JSON.parse(fs.readFileSync("keys.json", "utf8"));
 
 app.get("/api/load", (req, res) => {
     const userKey = req.query.key;
-    if (!userKey || !keys.includes(userKey)) {
+    if (!userKey || !keys[userKey]) {
         return res.status(403).send("You're not allowed here.");
     }
 
