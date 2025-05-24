@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Executor</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #0e0e0e;
+      color: #fff;
+      font-family: 'DM Sans', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.25rem;
+      color: #bbb;
+      margin-bottom: 2rem;
+      max-width: 500px;
+    }
+
+    .download-btn {
+      padding: 15px 40px;
+      background: linear-gradient(135deg, #5a5eff, #985eff);
+      color: white;
+      border: none;
+      border-radius: 12px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .download-btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(150, 150, 255, 0.3);
+    }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      .download-btn {
+        width: 100%;
+        max-width: 300px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Executor</h1>
+  <p>Fast, reliable, and easy to use. Experience next-gen script execution with zero hassle.</p>
+  <a href="/download.exe">
+    <button class="download-btn">Download</button>
+  </a>
+
+  <footer>&copy; 2025 MyExecutor. Not affiliated with KRNL.</footer>
+
+</body>
+</html>
+p
